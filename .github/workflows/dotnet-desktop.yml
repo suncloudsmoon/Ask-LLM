@@ -58,5 +58,5 @@ jobs:
       with:
         name: Release Artifacts
         path: |
-          bin\x64\Release\net6.0-windows\publish\Ask-LLM-AddIn64-packed.xll
-          bin\x64\Release\net6.0-windows\publish\Ask-LLM-AddIn.chm
+          ${{ github.workspace }}/bin/x64/Release/net6.0-windows/publish/Ask-LLM-AddIn64-packed.xll
+          ${{ github.workspace }}/bin/x64/Release/net6.0-windows/publish/Ask-LLM-AddIn.chm
