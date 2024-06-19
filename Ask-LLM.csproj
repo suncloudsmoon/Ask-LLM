@@ -17,9 +17,4 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-	  <Exec Command="call sign.bat&#xD;&#xA;call user_instructions.bat" Condition="'$(Configuration)' == 'Release'" />
-
-	</Target>
-
 </Project>
