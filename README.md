@@ -4,6 +4,8 @@ This Excel addin adds two new Excel functions: ASK() and INTERPRET(). The purpos
 https://github.com/suncloudsmoon/Ask-LLM/assets/34616349/5b542001-402c-491f-9e15-6b0c7d4d9430
 # Instructions
 See `Instructions.txt`
+
+[Download Ask-LLM (v1.0)](https://github.com/suncloudsmoon/Ask-LLM/releases/download/1.0/Ask-LLM-Addin-Files.zip)
 # API
 * ASK([prompt])
   * Ask a question to the LLM and get a response back in the same cell.
