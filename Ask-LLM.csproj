@@ -18,7 +18,7 @@
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-	  <Exec Command="call sign.bat&#xD;&#xA;call readme.bat" Condition="'$(Configuration)' == 'Release'" />
+	  <Exec Command="call sign.bat&#xD;&#xA;call user_instructions.bat" Condition="'$(Configuration)' == 'Release'" />
 
 	</Target>
 

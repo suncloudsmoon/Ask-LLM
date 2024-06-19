@@ -1,1 +1,0 @@
-copy README.txt "bin\x64\Release\net6.0-windows\publish\README.txt"

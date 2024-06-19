@@ -75,7 +75,7 @@ public static class MyFunctions
                 stream = false,
                 messages = new[]
                 {
-                    new { role = "system", content = SYSTEM_PROMPT},
+                    new { role = "system", content = SYSTEM_PROMPT },
                     new { role = "user", content = UserInput }
                 }
             };
